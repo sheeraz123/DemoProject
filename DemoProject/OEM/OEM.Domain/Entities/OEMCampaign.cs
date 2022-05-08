@@ -10,7 +10,7 @@ namespace OEM.Domain.Entities
     public class OEMCampaign : EntityBase
     {
         public string ListTitle { get; set; }
-     //   public OEMImages images { get; set; }
+        public OEMImages images { get; set; }
 
     }
 }
