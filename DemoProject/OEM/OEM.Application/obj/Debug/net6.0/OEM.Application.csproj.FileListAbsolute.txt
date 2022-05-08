@@ -1,0 +1,15 @@
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.csproj.AssemblyReference.cache
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.AssemblyInfoInputs.cache
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.AssemblyInfo.cs
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.csproj.CoreCompileInputs.cache
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\bin\Debug\net6.0\OEM.Application.deps.json
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\bin\Debug\net6.0\OEM.Application.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\bin\Debug\net6.0\OEM.Application.pdb
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\bin\Debug\net6.0\OEM.Domain.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\bin\Debug\net6.0\OEM.Domain.pdb
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.csproj.CopyComplete
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\refint\OEM.Application.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\OEM.Application.pdb
+E:\Project\DemoProject\DemoProject\OEM\OEM.Application\obj\Debug\net6.0\ref\OEM.Application.dll
