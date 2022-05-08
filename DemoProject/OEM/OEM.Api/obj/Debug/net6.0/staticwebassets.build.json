@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OJl2WXc+2LgpP6qJFt2aDs7nkbLSV5+0geeUvHrXeLo=",
+  "Source": "OEM.Api",
+  "BasePath": "_content/OEM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
