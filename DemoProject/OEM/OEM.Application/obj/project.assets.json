@@ -14,6 +14,41 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "11.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "FluentValidation/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.0.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.0.1",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "MediatR/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -194,6 +229,58 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "FluentValidation/11.0.1": {
+      "sha512": "fcL5zF/glDwskUtpL0IfBupVWTChxOOvVs+dAA7Gme5NjIeJBiFKWq3eZV1O+AigucnBTr8SWG7wRRn+PgFnTw==",
+      "type": "package",
+      "path": "fluentvalidation/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.0.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.0.1": {
+      "sha512": "B+jlYk4L6Ucj1yvpo0R9uelKjtC48CJDDPHF4ct/zBMwkrZoDDvBAqRwuNDChnjsjCr3NgJHyuETh4t2VTGUzQ==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "MediatR/10.0.1": {
@@ -536,25 +623,28 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "FluentValidation >= 11.0.1",
+      "FluentValidation.DependencyInjectionExtensions >= 11.0.1",
       "Microsoft.Extensions.Logging >= 6.0.0",
       "OEM.Domain >= 1.0.0",
       "mediatr.extensions.microsoft.dependencyinjection >= 10.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sheeraz Ahmad\\.nuget\\packages\\": {}
+    "C:\\Users\\q552696\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\OEM.Application.csproj",
+      "projectUniqueName": "C:\\sheeraz\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\OEM.Application.csproj",
       "projectName": "OEM.Application",
-      "projectPath": "E:\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\OEM.Application.csproj",
-      "packagesPath": "C:\\Users\\Sheeraz Ahmad\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\obj\\",
+      "projectPath": "C:\\sheeraz\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\OEM.Application.csproj",
+      "packagesPath": "C:\\Users\\q552696\\.nuget\\packages\\",
+      "outputPath": "C:\\sheeraz\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sheeraz Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\q552696\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -568,8 +658,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Domain\\OEM.Domain.csproj": {
-              "projectPath": "E:\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Domain\\OEM.Domain.csproj"
+            "C:\\sheeraz\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Domain\\OEM.Domain.csproj": {
+              "projectPath": "C:\\sheeraz\\Project\\DemoProject\\DemoProject\\OEM\\OEM.Domain\\OEM.Domain.csproj"
             }
           }
         }
@@ -585,6 +675,18 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "AutoMapper": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",
             "version": "[11.0.1, )"
           },
@@ -612,7 +714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
