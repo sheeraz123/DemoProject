@@ -22,3 +22,8 @@ C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6
 C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\refint\OEM.Infrastructure.dll
 C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\OEM.Infrastructure.pdb
 C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\ref\OEM.Infrastructure.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Application.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Domain.dll
+E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Application.pdb
+E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Domain.pdb
+E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\OEM.Infrastructure.csproj.CopyComplete

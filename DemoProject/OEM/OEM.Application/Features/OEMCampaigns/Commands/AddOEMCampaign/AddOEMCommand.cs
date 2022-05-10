@@ -12,6 +12,8 @@ namespace OEM.Application.Features.OEMCampaigns.Commands.AddOEMCampaign
     public class AddOEMCommand :IRequest<decimal>
     {
         public string ListTitle { get; set; }
+
+        public string RegionId { get; set; }
         public AddOEMImage images { get; set; }
     }
 }

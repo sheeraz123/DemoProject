@@ -9,6 +9,8 @@ namespace OEM.Application.Features.OEMCampaigns.Queries
     public class OEMCampaignVM
     {
         public string ListTitle { get; set; }
+
+        public string RegionId { get; set; }
         public OEMImagesVM images { get; set; }
     }
 }
