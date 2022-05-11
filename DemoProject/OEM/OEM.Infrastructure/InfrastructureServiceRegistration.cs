@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using OEM.Application.Contracts.Persistence;
 using OEM.Infrastructure.Repositories;
 
-namespace Ordering.Infrastructure
+namespace OEM.Infrastructure
 {
     public static class InfrastructureServiceRegistration
     {

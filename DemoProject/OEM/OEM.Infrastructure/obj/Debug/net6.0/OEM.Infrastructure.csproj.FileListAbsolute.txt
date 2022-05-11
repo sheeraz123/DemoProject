@@ -27,3 +27,8 @@ E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.D
 E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Application.pdb
 E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Domain.pdb
 E:\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\OEM.Infrastructure.csproj.CopyComplete
+C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Application.dll
+C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Domain.dll
+C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Application.pdb
+C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\bin\Debug\net6.0\OEM.Domain.pdb
+C:\sheeraz\Project\DemoProject\DemoProject\OEM\OEM.Infrastructure\obj\Debug\net6.0\OEM.Infrastructure.csproj.CopyComplete
