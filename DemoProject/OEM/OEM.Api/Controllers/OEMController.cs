@@ -15,7 +15,7 @@ namespace OEM.Api.Controllers
 
         public OEMController(IMediator mediator)
         {
-            _mediator = mediator;
+            _mediator = mediator??throw new ArgumentNullException(nameof(mediator));;
         }
 
         [HttpGet("{regionId}", Name = "GetOEMCampaignList")]
