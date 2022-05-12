@@ -23,7 +23,7 @@ namespace OEM.Infrastructure.Persistence
         {
             return new List<OEMCampaign>
             {
-                new OEMCampaign() {ListTitle="BMW X5", images={ListImage="Image1"}}
+                new OEMCampaign() {ListTitle="BMW X5", RegionId="IN", images={ListImage="Image1"}}
             };
         }
 

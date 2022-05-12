@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OEM.Application.Contracts.Persistence;
+using OEM.Infrastructure.Persistence;
 using OEM.Infrastructure.Repositories;
 
 namespace OEM.Infrastructure
@@ -9,9 +11,8 @@ namespace OEM.Infrastructure
     {
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
-            //services.AddDbContext<OrderContext>(options =>
-            //    options.UseSqlServer(configuration.GetConnectionString("OrderingConnectionString")));
-
+            services.AddDbContext<OEMContext>(options =>
+               options.UseSqlServer(configuration.GetConnectionString("OEMConnectionString")));
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
             services.AddScoped<IOEMRepository, OEMCampaignRepository>();
 
